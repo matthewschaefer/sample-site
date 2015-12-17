@@ -1,0 +1,422 @@
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('fonts/fontawesome-webfont.eot');
+    src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2') format('woff2'), url('fonts/fontawesome-webfont.woff') format('woff'), url('fonts/fontawesome-webfont.ttf') format('truetype'), url('fonts/fontawesome-webfont.svg#svgFontName') format('svg');
+}
+@font-face {
+    font-family: 'TradeGothicLTStd';
+    src: url('fonts/TradeGothicLTStd.otf') format("opentype");
+}
+
+body {
+    margin: 0;
+}
+
+.opendns-wrapper {
+    font-family: 'Font Awesome', Helvetica, Verdana, Arial, sans-serif;
+    color: #333;
+}
+
+.opendns-nav-main {
+    height: 72px;
+    background: #000000;
+    width: 100%;
+    line-height: 70px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.opendns-nav-main img {
+    float: left;
+    padding: 10px 0 0 26px;
+}
+
+#nav-main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-main li {
+    list-style-type: none;
+    float: left;
+    text-transform: uppercase;
+    padding: 0 0 0 50px;
+}
+
+#nav-main li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.opendns-hero {
+    height: 624px;
+    width: 100%;
+    margin: 72px 0 0 0;
+    background: url(images/hero-overlay.jpg) no-repeat center;
+    background-size: 1500px 624px;
+}
+
+.opendns-hero-content {
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.opendns-hero-content h1 {
+    color: #fff;
+    font-size: 68px;
+    padding: 110px 0 0 0;
+}
+
+.opendns-customers {
+    width: 100%;
+    background: rgba(000, 0, 0, 0.6);
+    margin: 102px 0 0 0;
+    height: 256px;
+}
+
+.opendns-customers ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.opendns-customers ul li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    width: 300px;
+    padding: 14px 0 0 0;
+}
+
+.opendns-customers ul li img {
+    margin: 0 auto;
+    display: block;
+}
+
+.opendns-customers ul li h2 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.opendns-customers ul li p {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 0 10px 0;
+}
+
+.opendns-customers ul li a {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.opendns-customers ul li a.business {
+    border: solid #5e81d3 2px;
+}
+
+.opendns-customers ul li a.msp {
+    border: solid #67b223 2px;
+}
+
+.opendns-customers ul li a.personal {
+    border: solid #ffab00 2px;
+}
+
+.opendns-learnmore-content {
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.opendns-learnmore h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.opendns-learnmore div.learn-blurb {
+    width: 456px;
+    height: 224px;
+    margin: 0 20px 20px 0;
+    position: relative;
+    float: left;
+}
+
+.opendns-learnmore div.learn-blurb.tall {
+    width: 456px;
+    height: 470px;
+}
+
+.opendns-learnmore div.learn-blurb.webcast {
+    background: url(images/learn-more-1-no-overlay.jpg) no-repeat center;
+    background-size: 456px 470px;
+}
+
+.opendns-learnmore div.learn-blurb.prodvideo {
+    background: url(images/learn-more-2-no-overlay.jpg) no-repeat center;
+    background-size: 456px 223px;
+}
+
+.opendns-learnmore div.learn-blurb.custvideo {
+    background: url(images/learn-more-3-no-overlay.jpg) no-repeat center;
+    background-size: 456px 224px;
+}
+
+.opendns-learnmore .learn-blurb-content p.learn-blurb-title {
+    padding: 25px 0 0 35px;
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.opendns-learnmore .learn-blurb-content img.centerimg {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*blue overlay for webcast learnmore*/
+
+.opendns-learnmore div.learn-blurb.webcast .learn-blurb-content {
+    background: rgba(60, 78, 154, .9);
+    width: 456px;
+    height: 470px;
+}
+
+
+/*green overlay for prodvideo learnmore*/
+
+.opendns-learnmore div.learn-blurb.prodvideo .learn-blurb-content {
+    background: rgba(128, 193, 57, .9);
+    width: 456px;
+    height: 224px;
+}
+
+
+/*yellowish overlay for custvideo learnmore*/
+
+.opendns-learnmore div.learn-blurb.custvideo .learn-blurb-content {
+    background: rgba(212, 161, 15, .8);
+    width: 456px;
+    height: 224px;
+}
+
+.opendns-learnmore div.learn-blurb.webcast .learn-blurb-content img.centerimg {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.opendns-learnmore div.learn-blurb.prodvideo .learn-blurb-content img.centerimg {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.opendns-learnmore div.learn-blurb.custvideo .learn-blurb-content img.centerimg {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/*learn blurb footer*/
+
+.learn-blurb-footer {
+    width: 382px;
+    height: 58px;
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    border-top: 1px solid white;
+}
+
+.learn-blurb-footer p {
+    color: #fff;
+    margin: 0;
+    padding: 14px 0 0 0;
+    position: absolute;
+}
+
+.learn-blurb-footer p.footertext {
+    top: 0;
+    left: 0;
+}
+
+.learn-blurb-footer p.footercta {
+    top: 0;
+    right: 0;
+}
+
+.opendns-numbers {
+    height: 300px;
+    clear: both;
+    position: relative;
+    background: url(images/numbers-background-no-overlay.jpg) no-repeat center;
+    background-size: 1500px 300px;
+}
+
+.opendns-numbers-overlay {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(71, 61, 83, 0.9);
+    z-index: 2;
+}
+
+.opendns-numbers-block-container {
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.opendns-numbers-block {
+    width: 480px;
+    height: 300px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.opendns-numbers-block:hover {
+    opacity: 1;
+    z-index: 4;
+}
+
+
+.opendns-numbers-block-head {
+    margin: 0;
+    padding: 35px 0 0 78px;
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+.opendns-numbers-block-stat {
+    margin: 0;
+    font-size: 125px;
+}
+
+.opendns-numbers-block-foot {
+    margin: 0;
+    padding: 0px 0 0 116px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.opendns-numbers-block01 {
+    top: 0;
+    left: 0;
+    background: url(images/numbers-1-no-text.png) no-repeat center;
+    background-size: 480px 300px;
+    z-index: 3;
+}
+
+.opendns-numbers-block01 span {
+    color: #98d04f;
+    font-size: 60px;
+}
+
+.opendns-numbers-block01 .opendns-numbers-block-stat {
+    padding: 13px 0 0 197px;
+}
+
+.opendns-numbers-block02 {
+    top: 0;
+    left: 240px;
+    background: url(images/numbers-2-no-text.png) no-repeat center;
+    background-size: 480px 300px;
+    z-index: 2;
+}
+
+.opendns-numbers-block02 span {
+    color: #f37821;
+    font-size: 60px;
+}
+
+.opendns-numbers-block02 .opendns-numbers-block-stat {
+    padding: 13px 0 0 91px;
+}
+
+.opendns-numbers-block03 {
+    top: 0;
+    left: 480px;
+    background: url(images/numbers-3-no-text.png) no-repeat center;
+    background-size: 480px 300px;
+    z-index: 1;
+}
+
+.opendns-numbers-block03 span {
+    color: #40318c;
+    font-size: 60px;
+}
+
+.opendns-numbers-block03 .opendns-numbers-block-stat {
+    padding: 13px 0 0 91px;
+}
+
+.opendns-footer {
+    width: 960px;
+    padding: 40px 10px 10px 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.opendns-footer-blurb {
+    width: 530px;
+}
+
+#nav-footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-footer li {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0 5px;
+    border-right: 1px #333 solid;
+}
+
+#nav-footer li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.opendns-footer-follow {
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+
+#nav-social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.opendns-footer-share {
+    position: absolute;
+    top: 40px;
+    left: 800px;
+}
+
+#nav-share {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-share li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+}
